@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+<corners
+android:radius="@dimen/reg_edittext_corner"
+/>
+<solid
+android:color="@color/reg_edittext_background_color"
+/>
+<padding
+android:left="@dimen/reg_edittext_padding"
+android:top="@dimen/reg_edittext_padding"
+android:right="@dimen/reg_edittext_padding"
+android:bottom="@dimen/reg_edittext_padding"
+/>
+</shape>

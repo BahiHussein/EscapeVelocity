@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <!-- Registration background -->
+    <ImageView
+        android:id="@+id/Registration_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/bg"
+        android:contentDescription="@string/content" />
+
+    <ImageView
+        android:id="@+id/reg_ic_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/reg_logo_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/reg_logo_margin_top"
+        android:layout_marginBottom="@dimen/reg_logo_margin_bottom"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/content" />
+
+    <EditText
+        android:id="@+id/reg_mEditText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_ic_logo"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginRight="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginTop="@dimen/reg_edittext_margin_top_bottom"
+        android:layout_marginBottom="@dimen/reg_edittext_margin_top_bottom"
+        android:textColor="@color/reg_edittext_text_color"
+        android:textSize="@dimen/reg_edittext_text_size"
+        android:background="@drawable/reg_edittext"
+        android:textColorHint="@color/reg_edittext_hint_color"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/reg_mEditText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reg_mEditText_name"
+        android:layout_marginLeft="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginRight="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginTop="@dimen/reg_edittext_margin_top_bottom"
+        android:layout_marginBottom="@dimen/reg_edittext_margin_top_bottom"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColor="@color/reg_edittext_text_color"
+        android:textColorHint="@color/reg_edittext_hint_color"
+        android:textSize="@dimen/reg_edittext_text_size"
+        android:background="@drawable/reg_edittext"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/reg_mEditText_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_mEditText_email"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/mobilenumber"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:layout_marginLeft="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginRight="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginTop="@dimen/reg_edittext_margin_top_bottom"
+        android:layout_marginBottom="@dimen/reg_edittext_margin_top_bottom"
+        android:textColor="@color/reg_edittext_text_color"
+        android:textSize="@dimen/reg_edittext_text_size"
+        android:background="@drawable/reg_edittext"
+        android:textColorHint="@color/reg_edittext_hint_color"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/reg_mSpinner_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_mEditText_mobile"
+        android:layout_marginLeft="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginRight="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginTop="@dimen/reg_edittext_margin_top_bottom"
+        android:layout_marginBottom="@dimen/reg_edittext_margin_top_bottom"
+        android:background="@drawable/reg_edittext"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/reg_mButton_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_mSpinner_gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginRight="@dimen/reg_edittext_margin_right_left"
+        android:layout_marginTop="@dimen/reg_button_submit_margin_top"
+        android:textColor="@color/reg_button_text_color"
+        android:textSize="@dimen/reg_button_submit_text_size"
+        android:background="@drawable/reg_button"
+        android:text="@string/submit" />
+
+    <WebView
+        android:id="@+id/reg_mWebView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ProgressBar
+        android:id="@+id/reg_mProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/reg_mWebView" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+<corners
+android:radius="@dimen/reg_button_submit_corner"
+/>
+<solid
+android:color="@color/reg_button_background_color_pressed"
+/>
+<padding
+android:left="@dimen/reg_button_submit_padding"
+android:top="@dimen/reg_button_submit_padding"
+android:right="@dimen/reg_button_submit_padding"
+android:bottom="@dimen/reg_button_submit_padding"
+/>
+</shape>

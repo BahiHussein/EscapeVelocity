@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="escapevelocity.zulucoding.com.escapevelocity" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Appstyle" >
+
+        <activity
+            android:name="escapevelocity.zulucoding.com.escapevelocity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Appstyle">
+        </activity>
+
+        <activity
+            android:name="escapevelocity.zulucoding.com.escapevelocity.SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="escapevelocity.zulucoding.com.escapevelocity.Message"
+            android:label="@string/title_activity_message"
+            android:theme="@style/Theme.Appstyle">
+        </activity>
+
+        <activity
+            android:name="escapevelocity.zulucoding.com.escapevelocity.Registration"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/Theme.Appstyle"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity
+            android:name="escapevelocity.zulucoding.com.escapevelocity.ErrorActivity"
+            android:label="@string/title_activity_error"
+            android:theme="@style/Theme.Appstyle">
+        </activity>
+
+        <!-- Google Play Service -->
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:theme="@style/Theme.AppCompat.Translucent"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>
