@@ -1,8 +1,7 @@
 EscapeVelocity
 ==============
 
-An Android webview for mobile websites and web apps - customize your app in 5 minutes 
-Zulucoding Android WebView, provides the best solution for Mobile websites and web mobile APPS to look exactly like a native android APP. The APP is designed to show the best performance of your mobile website and handle the most common connection errors.It is very easy to edit and customize, with just few and simple steps your app will be ready in few minutes.
+An Android webview for mobile websites and web apps. It allows you to create your own Android application for using your mobile website (online/offline - hosted locally).
 
 Features
 
@@ -56,15 +55,15 @@ EscapeVelocity V4.1.1 9/15/2014
 +new * Offline App / Online App
 +new * Full Screen WebView (On/Off)
 +new * Support on page website (On/Off)
-+new * Support Java and JQuery Animation 
-+new * Support CSS3 Animation and Html5 
++new * Support Java and JQuery Animation
++new * Support CSS3 Animation and Html5
 +new * Support GeoLocation (On/Off)
 +new * Support Zoom (On/Off)
 +new * Support Cache and Save Password (On/Off) - Cache works offline only
-+new * Handle Different Screen Orientations 
++new * Handle Different Screen Orientations
 +new * Android Animation
-+new * Support fast scrolling - high rendering 
-+new * Registration Form Submit and Approval Automatic 
++new * Support fast scrolling - high rendering
++new * Registration Form Submit and Approval Automatic
 +new * Customize Every thing in minutes (100% Customized)
 +new * Google Play Ads Event Control (Banner and Full Screen)
 +new * Option Menu > Contact Page
@@ -80,14 +79,16 @@ EscapeVelocity V3.5 6/9/2014
 - Add Exit Dialog
 - Added PlayAds (Banner and Full Screen)
 - Support One Page Web Applications and Multiple Pages Web App
-- Handle Screen Orientation Changes 
+- Handle Screen Orientation Changes
 - Save Users' Last Visited Page
-- Added Variable Sheet 
+- Added Variable Sheet
 - Added App Logs for Testing
 EscapeVelocity V3.2 5/5/2014
 - Fix back browsing error
-- Fix duplicated libraries 
+- Fix duplicated libraries
 EscapeVelocity V3.1 4/23/2014
 
 - Updated Admob Smart Banner
 - Added Admob Interstitials Ads
+
+
